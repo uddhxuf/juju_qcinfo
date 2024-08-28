@@ -1,0 +1,72 @@
+body {
+    background-image: url(OIP.jpg);
+    shape-image-threshold: cee;
+}
+.btn {
+    font-size: large;
+    border: none;
+    padding: 20px 50px;
+    font-weight: 10px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    right: 0px;
+    margin: 100px 500px;
+    transform: -50%;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.btn1 {
+    font-size: large;
+    border: none;
+    padding: 20px 50px;
+    font-weight: 10px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    transform: -50%;
+    cursor: pointer;
+    right: -500px;
+    top: -50px;
+    position: relative;
+    display: inline-block;
+}
+.btn2 {
+    font-size: large;
+    border: none;
+    padding: 20px 50px;
+    font-weight: 10px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    transform: -50%;
+    cursor: pointer;
+    right: -285px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+    width: 17.2%;
+}
+.btn:active {
+    background: gray;
+}
+.btn1:active {
+    background: gray;
+}
+.btn2:active {
+    background: gray;
+}
+.image {
+    margin: 100px 500px;
+    position: relative;
+    top: -410px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.image img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
